@@ -1,2 +1,2 @@
 # Javascript-snippets
-A place for some useful javascript snippets
+Some useful javascript snippets.
