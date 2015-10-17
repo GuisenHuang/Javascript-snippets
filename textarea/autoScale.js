@@ -18,6 +18,7 @@ Usage:
 function autoScale(maxHeight) {
 	var oldHeight = 0, newHeight = 0;
 	return function (event) {
+        event = event || window.event;
 		var element = event.target;
         window.setTimeout(function() {
           element.style.height = '';
@@ -56,6 +57,7 @@ Usage:
 
 function autoScale(maxHeight) {
 	   return function(event) {
+           event = event || window.event;
            var element = event.target,
                scrollHeight = 0,
                clientHeight = 0;
